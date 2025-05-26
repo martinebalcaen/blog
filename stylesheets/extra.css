@@ -1,0 +1,70 @@
+[data-md-color-scheme="slate"] {
+.md-nav__link.md-nav__link--active {
+    color: #eece1b !important;  /* yellow for dark theme */
+}
+.md-nav__link:hover {
+    color: #b6302a !important;  /* or any color you want */
+}
+    /* Primary Theme Colors */
+    --md-primary-fg-color: #335647; /* Main theme color (header background) */
+    --md-primary-fg-color--light: #4b816a; /* Lighter version of theme color */
+    --md-primary-fg-color--dark: #1E332A; /* Darker version of theme color */
+    --md-primary-bg-color: #f1ebe4; /* Text color used on primary color backgrounds */
+    --md-primary-bg-color--light: #FFFFFF; /* Lighter text color for primary backgrounds */
+
+    /* Accent Colors (Used for Interactive Elements) */
+    --md-accent-fg-color: #ebcc0c;           /* Color for interactive elements (buttons, links) */
+    --md-accent-fg-color--transparent: #ebcc0c21; /* Semi-transparent version of accent color */
+    --md-accent-bg-color: #262525;           /* Background color for accented elements */
+
+    /* Default Theme Colors */
+    --md-default-fg-color: #f1ebe4;  /* Main text color */
+    --md-default-fg-color--light: #f1ebe4;   /* Secondary text color */
+    --md-default-fg-color--lighter: #FFFFFF; /* Tertiary text color */
+    --md-default-fg-color--lightest:  #FFFFFF; /* Quaternary text color */
+    --md-default-bg-color: #262525;           /* Main background color */
+
+    /* For inline code */
+    --md-code-inline-bg-color: #335647;     /* background color */
+    --md-code-inline-color: #f1ebe4;        /* text color */
+
+    /* Footer background colors */
+    --md-footer-bg-color: #335647;          /* green background */
+    --md-footer-bg-color--dark: #2a4539;    /* slightly darker green for bottom section */
+}
+
+[data-md-color-scheme="default"] {
+    .md-nav__link.md-nav__link--active {
+        color: #b6302a !important;  /* red for light theme to contrast with dark background */
+    }
+    .md-nav__link:hover {
+        color: #335647 !important;  /* green for hover */
+    }
+    
+    /* Primary Theme Colors */
+    --md-primary-fg-color: #335647;        /* Same green as dark mode for consistency */
+    --md-primary-fg-color--light: #4b816a; /* Lighter green */
+    --md-primary-fg-color--dark: #1E332A;  /* Darker green */
+    --md-primary-bg-color: #f1ebe4;        /* Beige text on green */
+    --md-primary-bg-color--light: #FFFFFF; /* White text where needed */
+
+    /* Accent Colors */
+    --md-accent-fg-color: #b6302a;         /* Red for interactive elements */
+    --md-accent-fg-color--transparent: #b6302a21; /* Semi-transparent red */
+    --md-accent-bg-color: #FFFFFF;         /* White background for accented elements */
+
+    /* Default Theme Colors */
+    --md-default-fg-color: #262525;        /* Dark gray for main text */
+    --md-default-fg-color--light: #404040; /* Lighter gray for secondary text */
+    --md-default-fg-color--lighter: #595959; /* Even lighter gray */
+    --md-default-fg-color--lightest: #737373; /* Lightest gray */
+    --md-default-bg-color: #f1ebe4;        /* Beige background */
+
+    /* For inline code */
+    --md-code-bg-color: #f7f6f2;            /* white background */
+    --md-code-fg-color: #2c2929;             /* dark text */
+
+    /* Footer background colors */
+    --md-footer-bg-color: #335647;         /* Same green as dark mode */
+    --md-footer-bg-color--dark: #2a4539;   /* Same darker green */
+}
