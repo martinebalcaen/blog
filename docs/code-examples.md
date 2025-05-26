@@ -12,7 +12,7 @@
 
 === "Javascript"
 
-    ```js
+    ```js hl_lines="2-4"
     // Function to concatenate two strings
     function concatenateStrings(str1, str2) {
     return str1 + str2;

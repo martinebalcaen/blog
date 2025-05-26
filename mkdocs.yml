@@ -9,22 +9,24 @@ theme:
   favicon: assets/logo-blackred.png
   features:
     - navigation.footer
+    - navigation.instant
   palette:
   # Dark Mode
-  - scheme: slate
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
     toggle:
       icon: material/weather-sunny
       name: Switch to light mode
-    primary: blue grey
-    accent: red
 
 # Light Mode
-  - scheme: default
+  - media: "(prefers-color-scheme: light"
+    scheme: default
     toggle:
       icon: material/weather-night
       name: Switch to dark mode
-    primary: amber
-    accent: orange
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
